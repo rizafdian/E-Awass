@@ -61,13 +61,17 @@
                     <label for="id_pengadilan">Pengadilan</label>
                       <select name="id_pengadilan" class="form-control" required>
                         <option value="">--Pilih--</option>
-                        <option value="7" <?= $jadwal->id_pengadilan == 7 ? 'selected' : null ?>>PTA Gorontalo</option>
-                        <option value="1" <?= $jadwal->id_pengadilan == 1 ? 'selected' : null ?>>PA Gorontalo</option>
-                        <option value="2" <?= $jadwal->id_pengadilan == 2 ? 'selected' : null ?>>PA Limboto</option>
-                        <option value="3" <?= $jadwal->id_pengadilan == 3 ? 'selected' : null ?>>PA Tilamuta</option>
-                        <option value="4" <?= $jadwal->id_pengadilan == 4 ? 'selected' : null ?>>PA Marisa</option>
-                        <option value="5" <?= $jadwal->id_pengadilan == 5 ? 'selected' : null ?>>PA Suwawa</option>
-                        <option value="6" <?= $jadwal->id_pengadilan == 6 ? 'selected' : null ?>>PA Kwandang</option>
+                        <option value="7" <?= $jadwal->id_pengadilan == 7 ? 'selected' : null ?>>PTA Manado</option>
+                        <option value="1" <?= $jadwal->id_pengadilan == 1 ? 'selected' : null ?>>PA Manado</option>
+                        <option value="2" <?= $jadwal->id_pengadilan == 2 ? 'selected' : null ?>>PA Kotamobagu</option>
+                        <option value="3" <?= $jadwal->id_pengadilan == 3 ? 'selected' : null ?>>PA Tahuna</option>
+                        <option value="4" <?= $jadwal->id_pengadilan == 4 ? 'selected' : null ?>>PA Tondano</option>
+                        <option value="5" <?= $jadwal->id_pengadilan == 5 ? 'selected' : null ?>>PA Bitung</option>
+                        <option value="6" <?= $jadwal->id_pengadilan == 6 ? 'selected' : null ?>>PA Amurang</option>
+                        <option value="6" <?= $jadwal->id_pengadilan == 9 ? 'selected' : null ?>>PA Boroko</option>
+                        <option value="6" <?= $jadwal->id_pengadilan == 10 ? 'selected' : null ?>>PA Tutuyan</option>
+                        <option value="6" <?= $jadwal->id_pengadilan == 11 ? 'selected' : null ?>>PA Bolaang Uki</option>
+                        <option value="6" <?= $jadwal->id_pengadilan == 12 ? 'selected' : null ?>>PA Lolak</option>
                       </select>
                     <?php echo form_error('id_pengadilan') ?>
                   </div>
