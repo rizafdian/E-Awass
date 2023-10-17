@@ -73,22 +73,23 @@
                   <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputEmail4">Nomor SK</label>
-                      <input type="email" class="form-control" id="inputEmail4">
+                      <input type="text" name="no_sk" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK" id="no_sk"  placeholder="Masukan nomor SK">
+                      <?php echo form_error('no_sk') ?>
                     </div>
                     <div class="form-group col-md-6">
                       <label for="inputPassword4">Upload SK</label>
-                      <input type="file" accepted="pdf" class="form-control" id="inputPassword4">
+                      <input type="file" accept=".pdf" class="form-control" id="uploadsk" name="file1">
                     </div>
                   </div>
 
                   <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputEmail4">Nomor ST</label>
-                      <input type="email" class="form-control" id="inputEmail4">
+                      <input type="text" name="no_st" class="form-control <?php echo form_error('no_st') ? 'is-invalid':'' ?>" id="no_st"  placeholder="Masukan nomor SK" id="no_st">
                     </div>
                     <div class="form-group col-md-6">
                       <label for="inputPassword4">Upload ST</label>
-                      <input type="file" accepted="pdf" class="form-control" id="inputPassword4">
+                      <input type="file" accept=".pdf" class="form-control" id="uploadsk" name="file2">
                     </div>
                   </div>
 
