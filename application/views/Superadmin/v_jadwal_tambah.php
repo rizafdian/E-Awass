@@ -70,23 +70,26 @@
                     <?php echo form_error('id_pengadilan') ?>
                   </div>
 
-                  <div class="form-group">
-                    <label for="no_sk">Nomor SK</label>
-                    <div class="col-6">
-                      <input name="no_sk" type="text" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK">
-                      <?php echo form_error('no_sk') ?>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Nomor SK</label>
+                      <input type="email" class="form-control" id="inputEmail4">
                     </div>
-                    <div class="col-6">
-                      <input name="no_sk" type="text" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK">
-                      <?php echo form_error('no_sk') ?>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Upload SK</label>
+                      <input type="file" accepted="pdf" class="form-control" id="inputPassword4">
                     </div>
-                    
                   </div>
 
-                  <div class="form-group">
-                    <label for="no_st">Nomor ST</label>
-                    <input name="no_st" type="text" class="form-control <?php echo form_error('no_st') ? 'is-invalid':'' ?>" id="no_st"  placeholder="Masukan nomor SK">
-                    <?php echo form_error('no_st') ?>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Nomor ST</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Upload ST</label>
+                      <input type="file" accepted="pdf" class="form-control" id="inputPassword4">
+                    </div>
                   </div>
 
                   <div class="form-group">
