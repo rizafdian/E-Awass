@@ -24,8 +24,17 @@ class Jadwal extends CI_Controller
         $validation = $this->form_validation;
         $validation->set_rules($jadwal->rules());
         $data['periode'] = $this->jadwal_model->getPeriode();
+       
         if ($validation->run()) {
-        $jadwal->save();
+            
+            $config['upload_path']          = "./assets/upload/jadwal pengawasan";
+            $config['allowed_types']        = 'pdf';
+            $config['max_size']             = 25024;
+            $this->load->library('upload', $config);
+            $this->upload->initialize($config);
+            
+            $jadwal->save();
+
         $this->session->set_flashdata('success', 'Berhasil disimpan');
         }
 

@@ -72,8 +72,15 @@
 
                   <div class="form-group">
                     <label for="no_sk">Nomor SK</label>
-                    <input name="no_sk" type="text" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK">
-                    <?php echo form_error('no_sk') ?>
+                    <div class="col-6">
+                      <input name="no_sk" type="text" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK">
+                      <?php echo form_error('no_sk') ?>
+                    </div>
+                    <div class="col-6">
+                      <input name="no_sk" type="text" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK">
+                      <?php echo form_error('no_sk') ?>
+                    </div>
+                    
                   </div>
 
                   <div class="form-group">
