@@ -73,7 +73,7 @@
                   <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputEmail4">Nomor SK</label>
-                      <input type="text" name="no_sk" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK" id="no_sk"  placeholder="Masukan nomor SK">
+                      <input type="text" name="no_sk" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk" placeholder="Masukan nomor SK" id="no_sk"  placeholder="Masukan nomor SK">
                       <?php echo form_error('no_sk') ?>
                     </div>
                     <div class="form-group col-md-6">
@@ -85,7 +85,8 @@
                   <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputEmail4">Nomor ST</label>
-                      <input type="text" name="no_st" class="form-control <?php echo form_error('no_st') ? 'is-invalid':'' ?>" id="no_st"  placeholder="Masukan nomor SK" id="no_st">
+                      <input type="text" name="no_st" class="form-control <?php echo form_error('no_st') ? 'is-invalid':'' ?>" id="no_st"  placeholder="Masukan nomor ST" id="no_st">
+                      <?php echo form_error('no_st') ?>
                     </div>
                     <div class="form-group col-md-6">
                       <label for="inputPassword4">Upload ST</label>
