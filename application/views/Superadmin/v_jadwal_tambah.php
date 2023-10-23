@@ -73,7 +73,7 @@
                   <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputEmail4">Nomor SK</label>
-                      <input type="text" name="no_sk" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk" placeholder="Masukan nomor SK" id="no_sk"  placeholder="Masukan nomor SK">
+                      <input type="text" name="no_sk" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk" placeholder="Masukan nomor SK" id="no_sk">
                       <?php echo form_error('no_sk') ?>
                     </div>
                     <div class="form-group col-md-6">

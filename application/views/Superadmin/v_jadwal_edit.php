@@ -76,17 +76,30 @@
                     <?php echo form_error('id_pengadilan') ?>
                   </div>
 
-                  <div class="form-group">
-                    <label for="no_sk">Nomor SK</label>
-                    <input name="no_sk" type="text" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk"  placeholder="Masukan nomor SK" value="<?php echo $jadwal->no_sk ?>">
-                    <?php echo form_error('no_sk') ?>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Nomor SK</label>
+                      <input type="text" name="no_sk" class="form-control <?php echo form_error('no_sk') ? 'is-invalid':'' ?>" id="no_sk" placeholder="Masukan nomor SK" id="no_sk" value="<?php echo $jadwal->no_sk ?>">
+                      <?php echo form_error('no_sk') ?>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Upload SK</label>
+                      <input type="file" accept=".pdf" class="form-control" id="uploadsk" name="file1">
+                    </div>
                   </div>
 
-                  <div class="form-group">
-                    <label for="no_st">Nomor ST</label>
-                    <input name="no_st" type="text" class="form-control <?php echo form_error('no_st') ? 'is-invalid':'' ?>" id="no_st"  placeholder="Masukan nomor SK" value="<?php echo $jadwal->no_st ?>">
-                    <?php echo form_error('no_st') ?>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Nomor ST</label>
+                      <input type="text" name="no_st" class="form-control <?php echo form_error('no_st') ? 'is-invalid':'' ?>" id="no_st"  placeholder="Masukan nomor ST" id="no_st" value="<?php echo $jadwal->no_st ?>">
+                      <?php echo form_error('no_st') ?>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Upload ST</label>
+                      <input type="file" accept=".pdf" class="form-control" id="uploadsk" name="file2">
+                    </div>
                   </div>
+
 
                   <div class="form-group">
                     <label for="tgl_mulai">Tanggal Mulai</label>

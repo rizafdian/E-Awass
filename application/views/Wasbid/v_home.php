@@ -84,7 +84,7 @@
             </div>
             <div class="card-body">
               <h6 class="card-title"> <strong>Uji coba Awass Versi 2</strong></h6>
-              <p class="card-text">Saat ini sedang dikembangkan Awass versi 2 untuk Pengawasan Bidang PA dan hasil akan terintegrasi pada saat Pengawasan Daerah. Aplikasi ini masih dalam tahap ujicoba pada pengawasan bidang PTA Gorontalo</p>
+              <p class="card-text">Saat ini sedang dikembangkan Awass versi 2 untuk Pengawasan Bidang PA dan hasil akan terintegrasi pada saat Pengawasan Daerah. Aplikasi ini masih dalam tahap ujicoba pada pengawasan bidang PTA Manado</p>
               <a href="#" >Terimakasih</a>
             </div>
           </div>

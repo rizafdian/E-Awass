@@ -86,9 +86,10 @@ class Jadwal_model extends CI_Model
         $this->id_periode = $post['id_periode'];
         $this->id_pengadilan = $post['id_pengadilan'];
         $this->no_sk = $post['no_sk'];
-        $this->file_sk = $post['file_sk'];
+        $this->file_sk = $file_sk;
         $this->no_st = $post['no_st'];
-        $this->file_st = $post['file_st'];
+        $this->file_st = $file_st;
+        
         $this->tgl_mulai = $post['tgl_mulai'];
         $this->tgl_selesai = $post['tgl_selesai'];
         $this->status = 'Belum';
@@ -98,12 +99,35 @@ class Jadwal_model extends CI_Model
     public function update()
     {
         $post = $this->input->post();
+
+        if (($_FILES['file1']['name'])) {
+            if ($this->upload->do_upload('file1')) {
+                $file_sk = $this->upload->data("file_name");
+            } else {
+                // $error_upload = ['error' => $this->upload->display_errors()];
+                $this->session->set_flashdata('message', 'file PDF Error Upload');
+                redirect('pa/PA_laper/');
+            }
+        }
+
+        if (($_FILES['file2']['name'])) {
+            if ($this->upload->do_upload('file2')) {
+                $file_st = $this->upload->data("file_name");
+            } else {
+                // $error_upload = ['error' => $this->upload->display_errors()];
+                $this->session->set_flashdata('message', 'file Excel Error Upload');
+                redirect('pa/PA_laper/');
+            }
+        }
+
         $this->id_jadwal = $post["id"];
         $this->jenis = $post['jenis'];
         $this->id_periode = $post['id_periode'];
         $this->id_pengadilan = $post['id_pengadilan'];
         $this->no_sk = $post['no_sk'];
+        $this->file_sk = $file_sk;
         $this->no_st = $post['no_st'];
+        $this->file_st = $file_st;
         $this->tgl_mulai = $post['tgl_mulai'];
         $this->tgl_selesai = $post['tgl_selesai'];
         $this->status = $post['status'];

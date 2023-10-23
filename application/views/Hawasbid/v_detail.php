@@ -27,7 +27,7 @@
             <a class="btn btn-app bg-info" data-toggle="modal" data-target="#modaltemuan<?=$jadwal->id_jadwal?>">
               <i class="fas fa-file"></i> Upload Temuan
             </a>
-            <a class="btn btn-app bg-success" href="https://drive.google.com/drive/folders/1eDTb2qLRJoOxCaXXDLW0uNbHCDH9HX2s?usp=sharing" target="_blank">
+            <a class="btn btn-app bg-success" href="https://drive.google.com/drive/folders/1apF-HarPMZ5rIOCOVrPs5voVeL_Wu6_D?usp=sharing" target="_blank">
               <i class="fas fa-users"></i> Kontrak Kinerja
             </a>
             <a class="btn btn-app bg-warning" href="https://drive.google.com/drive/folders/1QIMcVxdNZ5lzs7BpSlcs-7fhx11E8WwI?usp=sharing" target="_blank">
