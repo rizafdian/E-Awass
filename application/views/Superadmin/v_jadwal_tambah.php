@@ -59,7 +59,7 @@
     								<label for="id_pengadilan">Pengadilan</label>
     								<select name="id_pengadilan" class="form-control" required>
     									<option value="">--Pilih--</option>
-    									<option value="7">PTA Gorontalo</option>
+    									<option value="7">PTA Manado</option>
     									<option value="1">PA Manado</option>
     									<option value="2">PA Kotamobagu</option>
     									<option value="3">PA Tahuna</option>
