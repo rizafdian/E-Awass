@@ -86,6 +86,31 @@
 				<?php endif; ?>
 			<?php endforeach ?>
 		<?php endforeach ?>
+		<tr>
+
+			<td colspan="6" class="table-dark">
+				<strong>6. TANGGAPAN OBRIK</strong>
+			</td>
+
+		</tr>
+		<tr>
+		<tr>
+			<td colspan="1">1.</td>
+			<td colspan="5">Menyadari kekurangan - kekurangan sebagaimana yang telah ditemukan oleh Tim pemeriksa.</td>
+
+		</tr>
+
+		<tr>
+			<td colspan="1">
+				2.
+			</td>
+			<td colspan="5">
+				Bersedia memperbaiki kekurangan tersebut dan berusaha tidak mengulangi lagi kesalahan - kesalahan pada hari mendatang, serta akan melaporkan tindaklanjut atas temuan tersebut kepada Pengadilan Tinggi Agama Manado dalam waktu 1 (satu) bulan.
+			</td>
+		</tr>
+
+		</tr>
+
 	</table>
 	<br><br><br>
 	<div class="row">
@@ -111,7 +136,7 @@
 		<div class="col-sm-7 float-right">
 			<table>
 				<tr>
-					<td>Manado, <?= $jadwal->tgl_selesai ?></td>
+					<td><?= $jadwal->tgl_selesai ?></td>
 				</tr>
 				<tr>
 					<td>Tim Pemeriksa,</td>
