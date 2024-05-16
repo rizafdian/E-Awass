@@ -126,7 +126,7 @@
 					<td>Ketua <?= $jadwal->pengadilan ?>, </td>
 				</tr>
 				<tr>
-					<td><br></td>
+					<td><br><br><br></td>
 				</tr>
 				<tr>
 					<td><?= $jadwal->nama ?></td>
