@@ -105,7 +105,7 @@
 				2.
 			</td>
 			<td colspan="5">
-				Bersedia memperbaiki kekurangan tersebut dan berusaha tidak mengulangi lagi kesalahan - kesalahan pada hari mendatang, serta akan melaporkan tindaklanjut atas temuan tersebut kepada Pengadilan Tinggi Agama Manado dalam waktu 1 (satu) bulan.
+				Bersedia memperbaiki kekurangan tersebut dan berusaha tidak mengulangi lagi kesalahan - kesalahan pada hari mendatang, serta akan melaporkan tindaklanjut atas temuan tersebut kepada Pengadilan Tinggi Agama Manado dalam waktu 14 (empat belas) hari.
 			</td>
 		</tr>
 
