@@ -113,7 +113,7 @@ class Detail extends CI_Controller
 		$phpWord->setDefaultFontName('Arial');
 
 		$targetFile = "./assets/uploads/";
-		$filename = 'LHP_Bab_III.docx';
+		$filename = 'LHP_Bab_III.rtf';
 
 		$section = $phpWord->addSection();
 
