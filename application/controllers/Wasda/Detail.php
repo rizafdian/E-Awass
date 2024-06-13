@@ -105,6 +105,9 @@ class Detail extends CI_Controller
 		$data['temuan'] = $this->detail_model->getTemuan($a);
 		$data['tim'] = $this->detail_model->getTim($a);
 
+		var_dump($data);
+		die;
+
 
 		$phpWord = new \PhpOffice\PhpWord\PhpWord();
 		$phpWord->getCompatibility()->setOoxmlVersion(14);
